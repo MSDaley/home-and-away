@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=M+PLUS+Rounded+1c&family=Mukta+Malar&display=swap');
+
+header{
+	max-width: 1200px;
+	margin: 0 auto;	
+	background-image:url(images/background.jpg);
+}
+header img{
+	display:block;
+				
+}
+nav li{
+	display:inline;
+	font-family:'Mukta Malar', sans-serif;
+	padding: 8px 10px;
+	border-radius: 15px;	
+}
+nav a{
+	color: #0066ff;
+}
+nav li:hover{
+	background-color: #00cc66;
+}
+main{
+	max-width:1200px;
+	margin:0 auto;
+	background: linear-gradient(to bottom right, #ffffff 15%, #66ffcc 100%);
+}
+main a{
+	font-family:'Mukta Malar', sans-serif;
+	color:#0066ff;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+	color:#0066ff;
+	text-align: center;
+}
+h2{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	color:#0066ff;
+	text-align: center;
+}
+
+
+p{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	
+}
+ul{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	 
+}
+footer{
+	max-width:1200px;
+	margin:0 auto; 
+	background: linear-gradient(to bottom right, #00ccff 0%, #66ffcc 100%);
+}
+
+i.fa{
+	color: #003366;
+	font-size: 14pt
+}
+.boxstyle{
+	margin-bottom: 20px;
+}
+.nobullets{
+	list-style-type: none;
+	padding: none;
+	
+}
+.tube-hero{
+	background-image:url(images/tubehero.jpg);
+	height: 232px;
+	width: 298px;	
+	background-position:center;
+	font-size:30px;
+	color:#003366;
+	padding: 10px 10px 10px 30px;
+	text-shadow: 1px 1px 0 #ffffcc;
+	text-align:center;
+	margin-bottom: 20px;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
